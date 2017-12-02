@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class LamborghiniCarLot here.
+ * this class describes a car lot for lamborghins
  *
  * @author Aaron Schollen
  * @version November 25
@@ -9,9 +9,11 @@ import java.util.ArrayList;
 
 public class LamborghiniCarLot
 {
-    // instance variables - replace the example below with your own
+
     private String                  lotName;
     private ArrayList <Lamborghini> inventory;
+
+    public static final int ZERO = 0;
 
     /**
      * default constructor for LamborghiniCarLot
@@ -22,17 +24,16 @@ public class LamborghiniCarLot
     }
 
     /**
-     * @param the name of the LamborghiniCarLot
-     * @param cannot be "Taylor's Used Lambos", will default to "Jason's Used Lambos"
+     * @param name the name of the LamborghiniCarLot
+     * cannot be "Taylor's Used Lambos", will default to "Jason's Used Lambos"
      */
     public LamborghiniCarLot(String lotName)
     {
         if (lotName != null){
             if (lotName.equalsIgnoreCase("Taylor's Used Lambos")){
                 this.lotName = "Jason's Used Lambos";       
-            }else{
+            }else
                 this.lotName = lotName;
-            }
         }
         ArrayList inventory = new ArrayList<>();
         inventory.add(new Lamborghini(1965, "350GT",          365.3, true));
@@ -111,9 +112,10 @@ public class LamborghiniCarLot
     }
 
     /**
-     * @param the new lot Name. Cannot be "Taylors Used Lambos"
+     * change the LamborghiniCarLot name
+     * @param lotName the new lot Name. Cannot be "Taylors Used Lambos"
      */
-    public void changLotName(){
+    public void changLotName(String lotName){
         if (lotName != null){
             if (lotName.equalsIgnoreCase("Taylor's Used Lambos")){
                 this.lotName = "Jason's Used Lambos";       
@@ -123,21 +125,115 @@ public class LamborghiniCarLot
 
         }
     }
-    
+
     /**
-     * @param the new inventory
+     * change the LamborghiniCarLot inventory
+     * @param inventory the new ArrayList inventory
      */
     public void changeInventory(ArrayList inventory){
-    this.inventory = inventory;
+        this.inventory = inventory;
     }
-    
+
     /**
-     * @param the new Lamborghini, cannot be null
+     * adds a Lamborghini to the inventory
+     * @param newLamborghini the new Lamborghini, cannot be null
      */
     public void addLamborghini(Lamborghini newLamborghini){
-    if (newLamborghini != null){
-    inventory.add(new Lamborghini());
+        if (newLamborghini != null){
+            inventory.add(new Lamborghini());
+        }
     }
+
+    /**
+     * returns the number of Lamborghinis in the inventory betwen the parameters (inclusive)
+     * @param startYear the lower boundary year
+     * @param endYear the upper boundary year
+     */
+    public int howManyBetweenTheseYears(int startYear, int endYear){
+        int runningTotal = ZERO;
+        if (inventory != null){
+            for (Lamborghini car : inventory){
+                if(car != null){
+                    if (car.getModelYear() != ZERO && (car.getModelYear() >= startYear && car.getModelYear() <= endYear)){
+                        runningTotal++;
+                    }
+                }
+
+            }
+        }
+        return runningTotal;
+    }
+
+    /**
+     * returns the number of cars in the inventory with rear wheel drive
+     * @return the number of rear wheel drive cars
+     */
+    public int howManyAreRearWheelDrive(){
+
+        int runningTotal = ZERO;
+
+        for (Lamborghini lamborghini: inventory){
+            if (lamborghini != null){
+                if (lamborghini.getIsRearWheelDrive()){
+                    runningTotal++;
+
+                }
+            }
+        }
+        return runningTotal;
+    }
+
+    /**
+     *returns an ArrayList of cars from the specified year
+     *@param year the year
+     *@return the ArrayList of cars returns empty array list if no cars for that year
+     */
+    public ArrayList<Lamborghini> getCarsFromThisYear(int year){
+        ArrayList cars = new ArrayList<Lamborghini>();
+
+        for (Lamborghini lamborghini: inventory){
+            if (lamborghini !=null){
+                if (lamborghini.getModelYear() == year){
+                    cars.add(lamborghini);
+                }
+            }
+        }
+
+        return cars;
+
+    }
+
+    /**
+     * returns an array of lamborghinis that have the horsepower within range(inclusive)
+     * @param lowHP the lower value of the range
+     * @param highHP the upper value of the range
+     * @return an array of lamborghinis that have the sepecified HorsePower Range
+     */
+    public Lamborghini[] getCarsWithHorsepowerRange(double lowHP, double highHP){
+        int numberOfMatches = 0;
+        int i               = 0;
+               
+        for (Lamborghini index: inventory){
+           if (index != null){
+              if (index.getHorsepower() >= lowHP && index.getHorsepower() <= highHP){
+                numberOfMatches ++;
+                i++;
+                } 
+           }
+        }
+        
+        Lamborghini[] matches = new Lamborghini[numberOfMatches];
+                
+        for (Lamborghini index: inventory){
+           if (index != null){
+              if (index.getHorsepower() >= lowHP && index.getHorsepower() <= highHP){
+                matches[i] = index;
+                
+                }
+           }
+        }
+        
+        return matches;
     }
 }
 

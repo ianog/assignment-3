@@ -1,0 +1,100 @@
+ULYSSES	James	Joyce	null
+THE GREAT GATSBY	F.	Fitzgerald	Scott
+A PORTRAIT OF THE ARTIST AS A YOUNG MAN	James	Joyce	null
+LOLITA	Vladimir	Nabokov	null
+BRAVE NEW WORLD	Aldous	Huxley	null
+THE SOUND AND THE FURY	William	Faulkner	null
+CATCH-22	Joseph	Heller	null
+DARKNESS AT NOON	Arthur	Koestler	null
+SONS AND LOVERS	D.	Lawrence	H.
+THE GRAPES OF WRATH	John	Steinbeck	null
+UNDER THE VOLCANO	Malcolm	Lowry	null
+THE WAY OF ALL FLESH	Samuel	Butler	null
+1984	George	Orwell	null
+I, CLAUDIUS	Robert	Graves	null
+TO THE LIGHTHOUSE	Virginia	Woolf	null
+AN AMERICAN TRAGEDY	Theodore	Dreiser	null
+THE HEART IS A LONELY HUNTER	Carson	McCullers	null
+SLAUGHTERHOUSE-FIVE	Kurt	Vonnegut	null
+INVISIBLE MAN	Ralph	Ellison	null
+NATIVE SON	Richard	Wright	null
+HENDERSON THE RAIN KING	Saul	Bellow	null
+APPOINTMENT IN SAMARRA	John	O'Hara	null
+U.S.A.(trilogy)	John	Dos Passos	null
+WINESBURG, OHIO	Sherwood	Anderson	null
+A PASSAGE TO INDIA	E.	Forster	M.
+THE WINGS OF THE DOVE	Henry	James	null
+THE AMBASSADORS	Henry	James	null
+TENDER IS THE NIGHT	F.	Fitzgerald	Scott
+THE STUDS LONIGAN TRILOGY	James	Farrell	T.
+THE GOOD SOLDIER	Ford	Ford	Madox
+ANIMAL FARM	George	Orwell	null
+THE GOLDEN BOWL	Henry	James	null
+SISTER CARRIE	Theodore	Dreiser	null
+A HANDFUL OF DUST	Evelyn	Waugh	null
+AS I LAY DYING	William	Faulkner	null
+ALL THE KING'S MEN	Robert	Warren	Penn
+THE BRIDGE OF SAN LUIS REY	Thornton	Wilder	null
+HOWARDS END	E.	Forster	M.
+GO TELL IT ON THE MOUNTAIN	James	Baldwin	null
+THE HEART OF THE MATTER	Graham	Greene	null
+LORD OF THE FLIES	William	Golding	null
+DELIVERANCE	James	Dickey	null
+A DANCE TO THE MUSIC OF TIME (series)	Anthony	Powell	null
+POINT COUNTER POINT	Aldous	Huxley	null
+THE SUN ALSO RISES	Ernest	Hemingway	null
+THE SECRET AGENT	Joseph	Conrad	null
+NOSTROMO	Joseph	Conrad	null
+THE RAINBOW	D.	Lawrence	H.
+WOMEN IN LOVE	D.	Lawrence	H.
+TROPIC OF CANCER	Henry	Miller	null
+THE NAKED AND THE DEAD	Norman	Mailer	null
+PORTNOY'S COMPLAINT	Philip	Roth	null
+PALE FIRE	Vladimir	Nabokov	null
+LIGHT IN AUGUST	William	Faulkner	null
+ON THE ROAD	Jack	Kerouac	null
+THE MALTESE FALCON	Dashiell	Hammett	null
+PARADE'S END	Ford	Ford	Madox
+THE AGE OF INNOCENCE	Edith	Wharton	null
+ZULEIKA DOBSON	Max	Beerbohm	null
+THE MOVIEGOER	Walker	Percy	null
+DEATH COMES FOR THE ARCHBISHOP	Willa	Cather	null
+FROM HERE TO ETERNITY	James	Jones	null
+THE WAPSHOT CHRONICLES	John	Cheever	null
+THE CATCHER IN THE RYE	J.	Salinger	D.
+A CLOCKWORK ORANGE	Anthony	Burgess	null
+OF HUMAN BONDAGE	W.	Maugham	Somerset
+HEART OF DARKNESS	Joseph	Conrad	null
+MAIN STREET	Sinclair	Lewis	null
+THE HOUSE OF MIRTH	Edith	Wharton	null
+THE ALEXANDRIA QUARTET	Lawrence	Durell	null
+A HIGH WIND IN JAMAICA	Richard	Hughes	null
+A HOUSE FOR MR BISWAS	V.	Naipaul	S.
+THE DAY OF THE LOCUST	Nathanael	West	null
+A FAREWELL TO ARMS	Ernest	Hemingway	null
+SCOOP	Evelyn	Waugh	null
+THE PRIME OF MISS JEAN BRODIE	Muriel	Spark	null
+FINNEGANS WAKE	James	Joyce	null
+KIM	Rudyard	Kipling	null
+A ROOM WITH A VIEW	E.	Forster	M.
+BRIDESHEAD REVISITED	Evelyn	Waugh	null
+THE ADVENTURES OF AUGIE MARCH	Saul	Bellow	null
+ANGLE OF REPOSE	Wallace	Stegner	null
+A BEND IN THE RIVER	V.	Naipaul	S.
+THE DEATH OF THE HEART	Elizabeth	Bowen	null
+LORD JIM	Joseph	Conrad	null
+RAGTIME	E.	Doctorow	L.
+THE OLD WIVES' TALE	Arnold	Bennett	null
+THE CALL OF THE WILD	Jack	London	null
+LOVING	Henry	Green	null
+MIDNIGHT'S CHILDREN	Salman	Rushdie	null
+TOBACCO ROAD	Erskine	Caldwell	null
+IRONWEED	William	Kennedy	null
+THE MAGUS	John	Fowles	null
+WIDE SARGASSO SEA	Jean	Rhys	null
+UNDER THE NET	Iris	Murdoch	null
+SOPHIE'S CHOICE	William	Styron	null
+THE SHELTERING SKY	Paul	Bowles	null
+THE POSTMAN ALWAYS RINGS TWICE	James	Cain	M.
+THE GINGER MAN	J.	Donleavy	P.
+THE MAGNIFICENT AMBERSONS	Booth	Tarkington	null
